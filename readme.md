@@ -1,8 +1,4 @@
-#Auto StrongName Remover/Resigner
-
-by Ulysses
-
----
+# Auto StrongName Remover/Resigner
 >*这个StrongName Removing呢，我们就有几年用StrongNameRemove，旁边一个StrongName Killer。最痛苦的，就是相关程序集甚至是BAML把这个强签名的引用到里面，去签名的时候一下子就……然后就是用刀片刮也不行了，这个就是签名是最痛苦的，而且这个效率efficiency……*
 
 A simple tool to remove/resign assemblies' strong name (public key & public key token) automatically. 
