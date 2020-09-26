@@ -20,7 +20,7 @@ namespace ASNR
         
         static void Log(string log)
         {
-            Debug.WriteLine(log);
+            Console.WriteLine(log);
         }
         
         static void Main(string[] args)
