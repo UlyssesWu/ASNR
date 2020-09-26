@@ -172,10 +172,10 @@ namespace ASNR
                     {
                         if (!isResign)
                         {
-                            if (asmref.PublicKeyOrToken != null)
-                            {
-                                asmref.PublicKeyOrToken = null;
-                            }
+                            //if (asmref.PublicKeyOrToken != null)
+                            //{
+                            //    asmref.PublicKeyOrToken = null;
+                            //}
                             asmref.HasPublicKey = false;
                         }
                         else
