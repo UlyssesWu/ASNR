@@ -244,6 +244,13 @@ namespace ASNR
                 Log(ex.ToString());
                 return;
             }
+
+            if (md.Assembly.PublicKeyToken == null)
+            {
+                Console.WriteLine("The assembly is not strong named.");
+                return;
+            }
+
             CurrentPublicKeyToken = md.Assembly.PublicKeyToken.ToString();
             CurrentPublicKey = md.Assembly.PublicKey.ToString();
             CurrentPath = Path.GetDirectoryName(md.Location);
