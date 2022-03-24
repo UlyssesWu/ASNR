@@ -22,7 +22,7 @@ and BAML code is from [**ConfuserEx**](https://github.com/yck1509/ConfuserEx) (b
 
 ## License
 
-LGPL v3
+MIT
 
 ---
 
